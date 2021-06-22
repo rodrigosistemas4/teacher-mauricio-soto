@@ -1,8 +1,19 @@
 {
-    "products": [
+    "users": [
       {
         "id": 1,
-        "name": "Fazer café"
+        "name": "Mauricio",
+        "age": 28,
+        "occupation": "Front-end software engineer",
+        "emoji": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
+      }
+    ],
+    "locales": [
+      {
+        "id": 1,
+        "name": "Porto Alegre",
+        "country": "Brazil",
+        "image": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
       }
     ]
   }
