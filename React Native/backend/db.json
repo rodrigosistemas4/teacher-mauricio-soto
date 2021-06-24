@@ -1,19 +1,38 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Mauricio",
-        "age": 28,
-        "occupation": "Front-end software engineer",
-        "emoji": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
-      }
-    ],
-    "locales": [
-      {
-        "id": 1,
-        "name": "Porto Alegre",
-        "country": "Brazil",
-        "image": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Mauricio",
+      "age": 28,
+      "occupation": "Front-end software engineer",
+      "avatar": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
+    },
+    {
+      "name": "Frederico",
+      "age": 48,
+      "occupation": "Teacher",
+      "avatar": "https://i.pinimg.com/originals/41/9d/a6/419da6a4b43f2b4bdedb613293df4908.png",
+      "id": 2
+    }
+  ],
+  "locales": [
+    {
+      "id": 1,
+      "name": "Porto Alegre",
+      "country": "Brazil",
+      "image": "https://cdn3.iconfinder.com/data/icons/jobs-and-professions/30/soldier_male-512.png"
+    },
+    {
+      "name": "Gravataí",
+      "country": "Brazil",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guiadoturismobrasil.com%2Fgastronomia%2F3%2FRS%2Fgravatai%2F700&psig=AOvVaw3rwSbAQfFbA8lv6TUeWajn&ust=1624657456012000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMCPjfaesfECFQAAAAAdAAAAABAD",
+      "id": 2
+    },
+    {
+      "name": "Canoas",
+      "country": "Brazil",
+      "image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Foldsite.canoas.rs.gov.br%2Fsite%2Fhome%2Fpagina%2Fid%2F7&psig=AOvVaw1hum96-4sWpCp81raJ3Sze&ust=1624658182067000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNCPosWhsfECFQAAAAAdAAAAABAD",
+      "id": 3
+    }
+  ]
+}

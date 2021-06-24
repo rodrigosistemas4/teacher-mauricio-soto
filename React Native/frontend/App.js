@@ -3,13 +3,15 @@ import {
   SafeAreaView, Text
 } from 'react-native';
 
-import { UsersClient } from './src/services/api.service'
+import { UsersClient, LocalesClient } from './src/services/api.service'
 
 const App = () => {
-  const serviceTest = new UsersClient()
+  const usersService = new UsersClient()
+  const localesService = new LocalesClient()
+
   useEffect(async () => {
    try {
-     const response = await serviceTest.get()
+     const response = await usersService.list()
      console.log(response)
    } catch (error) {
      console.log(error)
